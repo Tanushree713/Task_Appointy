@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background: #000;
+  color: #fff;
+  width: 50vw;
+  border-radius: 18px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input[type="date"] {
+  margin-bottom: 25px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.selected-room {
+  font-size: 20px;
+  color: #2583e8;
+  font-weight: 700;
+}
